@@ -1,4 +1,4 @@
-console.warn('THE TESTED FILE IS BEING REQUIRED HERE')
+console.warn('This is the file being tested');
 const lodash = require('lodash');
 
 function reverse (array) {

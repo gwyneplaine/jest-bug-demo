@@ -1,9 +1,9 @@
+console.warn('This is the test file');
 console.warn('### Requiring lodash at the moment');
 const lodash = require('lodash');
 const reverse = require('../index');
 
 jest.mock('lodash');
-// console.warn(jest.mock.toString());
 jest.fn();
 
 describe('reverse array', () =>{
